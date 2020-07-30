@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+}
+
+main {
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+article {
+    margin: 30px 15px;
+}
+
+
+
+span {
+    font-weight: bold;
+    text-align: center;
+}
