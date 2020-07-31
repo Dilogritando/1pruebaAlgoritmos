@@ -34,25 +34,24 @@
 } */
 
 /* Promedio de un estudiante a partir de sus tres notas parciales. */
-function gradeAverage(grade1,grade2,grade3){
+/* function gradeAverage(grade1,grade2,grade3){
     let g1 =  parseFloat(grade1);
     let g2 =  parseFloat(grade2);
     let g3 =  parseFloat(grade3);
     let fullNum = (g1+g2+g3)/3;
     let resultGrades = fullNum.toFixed(2);
     console.log(resultGrades)
-}
+} */
 
 /* Muestre en pantalla la edad del mayor */
-/* function showEldest(age1, age2){
-    let age1;
-    let age2;
+function showEldest(age1, age2){
     if (age1>age2){
-        let resultEldest = age1
+        let resultEldest = age1;
+        return resultEldest;
     } else {
         let resultEldest = age2
+        return resultEldest;
     }
-    console.log(resultEldest)
-} */
+}
 
 /* export default Algoritmos */
