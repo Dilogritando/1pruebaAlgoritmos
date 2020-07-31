@@ -1,19 +1,19 @@
 /* Algoritmos definidos */
 
 /* Promedio */
-function getAverage(num1,num2){
+/* function getAverage(num1,num2){
     let average = (num1+num2)/2;
     console.log(average);
-}
+} */
 
 /* Mes correspondiente */
-/* function no2Month(indicator){
-    let indicator; 
-    let months = [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre];
-    let placeinArray = indicator-1;
-    let month = placeinArray;
+function no2Month(indicator){
+    let indicatorNum = parseInt(indicator);
+    let months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    let placeinArray = indicatorNum-1;
+    let month = months[placeinArray];
     console.log(month);
-} */
+}
 
 /* Resultado de la operacion correspondiente */
 /* function resultOperations(numONE,operator,numTWO){
