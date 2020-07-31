@@ -7,6 +7,11 @@ main {
     padding-left: 25px;
 }
 
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
 section {
     margin-bottom: 50px;
 }

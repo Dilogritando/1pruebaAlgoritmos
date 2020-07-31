@@ -1,16 +1,64 @@
-Promedio
+/* Algoritmos definidos */
 
-Mes correspondiente
+/* Promedio */
+function getAverage(num1,num2){
+    let average = (num1+num2)/2;
+    console.log(average);
+}
 
-Resultado de la operacion correspondiente
+/* Mes correspondiente */
+/* function no2Month(indicator){
+    let indicator; 
+    let months = [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre];
+    let placeinArray = indicator-1;
+    let month = placeinArray;
+    console.log(month);
+} */
 
-Determinar el número mayor de los tres.
+/* Resultado de la operacion correspondiente */
+/* function resultOperations(numONE,operator,numTWO){
+    let numONE;
+    let numTWO;
+    let operator;
+    let resultMath = numONE operator numTWO;
+    console.log(resultMath)
+} */
 
-Promedio de un estudiante a partir de sus tres notas parciales.
+/* Determinar el número mayor de los tres. */
+/* function biggest(num1a,num2a,num3a){
+    let num1a;
+    let num2a;
+    let num3a;
+    let resultBiggest; 
+    if (num1a>num2a, num1a>num3a){
+        resultBiggest=num1a;
+    } else if (num2a>num1a, num2a>num3a) {
+        resultBiggest=num2a;
+    } else {
+        resultBiggest=num3a;
+    }
+    console.log(resultBiggest)
+} */
 
-Muestre en pantalla la edad del mayor.
+/* Promedio de un estudiante a partir de sus tres notas parciales. */
+/* function gradeAverage(grade1,grade2,grade3){
+    let grade1;
+    let grade2;
+    let grade3;
+    let resultGrades = (grade1+grade2+grade3)/3;
+    console.log(resultGrades)
+} */
 
+/* Muestre en pantalla la edad del mayor */
+/* function showEldest(age1, age2){
+    let age1;
+    let age2;
+    if (age1>age2){
+        let resultEldest = age1
+    } else {
+        let resultEldest = age2
+    }
+    console.log(resultEldest)
+} */
 
-Elabora un diagrama de flujo con los pasos para iniciar sesión en una cuenta de Facebook
-Elabora un diagrama de flujo con los pasos para preparar cafe
-Elabora un diagrama de flujo con los pasos para calcular el área de un rectángulo
+/* export default Algoritmos */
