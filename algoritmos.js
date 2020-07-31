@@ -7,29 +7,22 @@
 } */
 
 /* Mes correspondiente */
-function no2Month(indicator){
+/* function no2Month(indicator){
     let indicatorNum = parseInt(indicator);
     let months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
     let placeinArray = indicatorNum-1;
     let month = months[placeinArray];
     console.log(month);
-}
+} */
 
 /* Resultado de la operacion correspondiente */
-/* function resultOperations(numONE,operator,numTWO){
-    let numONE;
-    let numTWO;
-    let operator;
+/* function resultOperations(numONE, operator, numTWO){
     let resultMath = numONE operator numTWO;
     console.log(resultMath)
 } */
 
 /* Determinar el número mayor de los tres. */
-/* function biggest(num1a,num2a,num3a){
-    let num1a;
-    let num2a;
-    let num3a;
-    let resultBiggest; 
+function biggest(num1a,num2a,num3a){
     if (num1a>num2a, num1a>num3a){
         resultBiggest=num1a;
     } else if (num2a>num1a, num2a>num3a) {
@@ -38,7 +31,7 @@ function no2Month(indicator){
         resultBiggest=num3a;
     }
     console.log(resultBiggest)
-} */
+}
 
 /* Promedio de un estudiante a partir de sus tres notas parciales. */
 /* function gradeAverage(grade1,grade2,grade3){
