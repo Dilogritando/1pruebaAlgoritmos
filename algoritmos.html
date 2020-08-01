@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios PlatziMaster</title>
     <link rel="stylesheet" href="./algoritmos.css">
-    <script src="./algoritmos.js"></script>
+    <script src="./integration.js"></script>
 </head>
 <body>
     <header>
@@ -18,60 +18,68 @@
             <article>
                 <h3>Promedio entre dos números</h3>
                 <div>
-                    <p>Ingresa dos números: </p>
-                    <input type="number" placeholder="Número" placeholder="Número">
-                    <input type="number" placeholder="Número" placeholder="Número">
-                    <p id="average"> El promedio entre los dos números es: </p>
+                    <p>Ingresa dos números enteros: </p>
+                    <input type="number" placeholder="Número" placeholder="Número" id="tnum1">
+                    <input type="number" placeholder="Número" placeholder="Número" id="tnum2">
+                    <button type="submit" id="averageButton">¡Dame la respuesta!</button>
+                    <p id="averageResult"> El promedio entre los dos números es: </p>
                 </div>
             </article>
 
             <article>
                 <h3>Mes correspondiente a un dígito</h3>
                 <div>
-                    <p>Instrucciones</p>
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Operador">
-                    <p class="result"> Resultado </p>
+                    <p>Ingresa el número de mes que quieres ver en pantalla. ¡Debe ser un número del 1-12!</p>
+                    <input type="number" placeholder="Número" id="tindicator">
+                    <button type="submit" id="monthButton">¡Dame la respuesta!</button>
+                    <p class="result" id="getMonth"> El mes correspondiente a tu número es: </p>
                 </div>
             </article>
 
             <article>
                 <h3>Operaciones matemáticas</h3>
                 <div>
-                    <p>Instrucciones</p>
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Operador">
-                    <p class="result"> Resultado </p>
+                    <p>Crea operaciones con números enteros:</p>
+                    <input type="number" placeholder="Número" id="tnumONE">
+                    <input type="text" placeholder="Operador" id="toperator">
+                    <input type="number" placeholder="Número" id="tnumTWO">
+                    <button type="submit" id="opButton">¡Dame la respuesta!</button>
+                    <p class="result" id="opResult"> Resultado </p>
                 </div>
             </article>
 
             <article>
                 <h3>¿Cuál es el número mayor?</h3>
                 <div>
-                    <p>Instrucciones</p>
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Operador">
-                    <p class="result"> Resultado </p>
+                    <p>Ingresa 3 números y podrás consultar cuál es el mayor</p>
+                    <input type="number" placeholder="Número" id="tnum1a">
+                    <input type="number" placeholder="Número" id="tnum2a">
+                    <input type="number" placeholder="Número" id="tnum3a">
+                    <button type="submit" id="biggestButton">¡Dame la respuesta!</button>
+                    <p class="result" id="biggestResult"> El número más grande es: </p>
                 </div>
             </article>
 
             <article>
                 <h3>Promedio estudiantil</h3>
                 <div>
-                    <p>Instrucciones</p>
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Operador">
-                    <p class="result"> Resultado </p>
+                    <p>Ingresa las 3 notas parciales de tu materia, y averigua tu promedio</p>
+                    <input type="number" placeholder="Nota" id="tg1">
+                    <input type="number" placeholder="Nota" id="tg2">
+                    <input type="number" placeholder="Nota" id="tg3">
+                    <button type="submit" id="gradeButton">¡Dame la respuesta!</button>
+                    <p class="result" id="gradesResult"> Tu promedio es: </p>
                 </div>
             </article>
 
             <article>
                 <h3>Mostrar edad del mayor</h3>
                 <div>
-                    <p>Instrucciones</p>
-                    <input type="number" placeholder="Número">
-                    <input type="text" placeholder="Operador">
-                    <p class="result"> Resultado </p>
+                    <p>Ingresa la edad de dos personas. ¿Quién es mayor?</p>
+                    <input type="number" placeholder="Número" id="tage1">
+                    <input type="number" placeholder="Número" id="tage2">
+                    <button type="submit" id="eldestButton">¡Dame la respuesta!</button>
+                    <p class="result" id="eldestResult"> El mayor es la persona que tiene:</p>
                 </div>
             </article>
 
